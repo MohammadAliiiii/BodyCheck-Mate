@@ -1,0 +1,1 @@
+let answer = document.getElementById("w"); function calculation() { var e = document.getElementById("height").value * document.getElementById("height").value, e = document.getElementById("weight").value / e; answer.classList.add("box"); let t = document.getElementById("answer"); t.innerHTML = "Your BMI is : " + e } answer.classList.remove("box");
